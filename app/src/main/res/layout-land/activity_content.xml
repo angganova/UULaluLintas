@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evand.edu.uulalulintas.content"
+    style="@style/bg">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton5"
+            android:onClick="btnoc"
+            android:background="@drawable/sepeda"
+            android:layout_gravity="center_vertical"
+            android:cropToPadding="false"
+            android:layout_marginRight="30dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton6"
+            android:onClick="btnoc2"
+            android:cropToPadding="false"
+            android:background="@drawable/r4"
+            android:layout_gravity="center_vertical|right"
+            android:baselineAlignBottom="false"
+            android:clickable="true" />
+    </LinearLayout>
+</RelativeLayout>

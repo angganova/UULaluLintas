@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evand.edu.uulalulintas.pembuat"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:id="@+id/LLV"
+        android:weightSum="1"
+        android:background="@drawable/back">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Aplikasi UU Lalu Lintas"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="3dp"
+            android:textColor="#ff000000"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/uu"
+            android:layout_weight="0.38"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="447dp"
+            android:id="@+id/LLV2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Developer : Angga Nova Perkasa"
+                android:id="@+id/textView3"
+                android:layout_marginTop="5dp"
+                android:textColor="#ff000000"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email : angga19@gmail.com"
+                android:id="@+id/textView4"
+                android:layout_marginTop="5dp"
+                android:textColor="#ff000000"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Web : evand19.blogspot.com"
+                android:id="@+id/textView5"
+                android:layout_marginTop="5dp"
+                android:textColor="#ff000000"
+                android:textSize="18dp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="BBM : 21FF1880"
+                android:id="@+id/textView7"
+                android:textColor="#ff000000"
+                android:layout_marginTop="5dp"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Keterangan :"
+                android:id="@+id/textView13"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1. Daftar Pasal dan Sanksi dalam aplikasi ini diambil dari Undang - undang No. 22 Tahun 2009"
+                android:id="@+id/textView14"
+                android:layout_marginTop="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="2. Gambar - gambar yang ada di dalam aplikasi ini sebagian besar diambil dari sumber online."
+                android:id="@+id/textView15"
+                android:layout_marginTop="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Website :"
+                android:id="@+id/textView16"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="multirambu-ts.blogspot.com"
+                android:id="@+id/textView17"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/bg"
+    style="@style/bg">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:src="@drawable/daftar"
+            android:onClick="btnoc1"
+            android:layout_column="0"
+            android:layout_alignWithParentIfMissing="false"
+            android:background="@drawable/daftar"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/kuis"
+            android:onClick="btnoc2"
+            android:layout_toRightOf="@id/imageButton"
+            android:background="@drawable/kuis"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="30dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton3"
+            android:layout_toRightOf="@id/imageButton3"
+            android:layout_column="3"
+            android:layout_below="@id/imageButton"
+            android:src="@drawable/rambu"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="30dp"
+            android:onClick="btnoc3"
+            android:background="@drawable/rambu"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton4"
+            android:src="@drawable/help"
+            android:onClick="btnoc4"
+            android:layout_toRightOf="@id/imageButton3"
+            android:layout_below="@id/imageButton2"
+            android:outlineProvider="none"
+            android:scaleType="centerCrop"
+            android:textAlignment="center"
+            android:tintMode="src_over"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/help"
+            android:layout_gravity="center|right" />
+    </LinearLayout>
+
+
+</RelativeLayout>

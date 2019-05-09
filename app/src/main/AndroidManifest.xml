@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.evand.edu.uulalulintas" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="UU Lalu Lintas"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.evand.edu.uulalulintas.Splash"
+            android:label="UU Lalu Lintas" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.MainActivity"
+            android:label="UU Lalu Lintas" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.content"
+            android:label="Daftar Pasal dan Sanksi" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.sim"
+            android:label="Kuis Simulasi Berkendara Roda 2" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.rambu"
+            android:label="Rambu - rambu Lalu Lintas" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.tentang"
+            android:label="Tentang Aplikasi" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.Simulasi.hasil"
+            android:label="Hasil Simulasi" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.pembuat"
+            android:label="About" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.bantuan"
+            android:label="Bantuan" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.r2"
+            android:label="Kendaraan Roda 2" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.r4"
+            android:label="Kendaraan Roda 4 / Lebih" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.sim2"
+            android:label="Kuis Simulasi Berkendara Roda 4 / Lebih" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.content_sim"
+            android:label="Menu Simulasi" >
+        </activity>
+        <activity
+            android:name="com.evand.edu.uulalulintas.simulasi"
+            android:label="Kuis Simulasi" >
+        </activity>
+    </application>
+
+</manifest>

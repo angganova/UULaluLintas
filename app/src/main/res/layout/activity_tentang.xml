@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evand.edu.uulalulintas.tentang"
+    style="@style/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/LLV"
+        android:weightSum="1"
+        android:background="@drawable/bg3"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnbantuan"
+            android:src="@drawable/tentang"
+            android:layout_gravity="center"
+            android:onClick="btnoc1"
+            android:background="@drawable/tentang"
+            android:layout_marginBottom="30dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnpembuat"
+            android:layout_gravity="center_horizontal"
+            android:onClick="btnoc2"
+            android:src="@drawable/about"
+            android:background="@drawable/about" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evand.edu.uulalulintas.bantuan"
+    android:background="#ffffffff">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:nestedScrollingEnabled="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Bantuan"
+            android:id="@+id/tvawal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Untuk melihat daftar pasal untuk kendaraan roda 2 silahkan memilih tombol Pasal dan Sanksi lalu memilih tombol Roda 2."
+            android:id="@+id/tv1"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tvawal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2. Untuk melihat daftar pasal untuk kendaraan roda 4 silahkan memilih tombol Pasal dan Sanksi lalu memilih tombol Roda 4 / Lebih."
+            android:id="@+id/tv2"
+            android:layout_below="@+id/tv1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="3. Untuk mencoba kuis simulasi berkendara yang baik untuk kendaraan roda 2 silahkan memilih tombol Kuis lalu memilih tombol Roda 2."
+            android:id="@+id/tv3"
+            android:layout_below="@+id/tv2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="4. Untuk mencoba kuis simulasi berkendara yang baik untuk kendaraan roda 4 silahkan memilih tombol Kuis lalu memilih tombol Roda 4."
+            android:id="@+id/textView12"
+            android:layout_marginLeft="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="5. Untuk melihat daftar Rambu - rambu silahkan memilih tombol Rambu - rambu"
+            android:id="@+id/tv6"
+            android:layout_below="@+id/tv5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="6. Untuk melihat pembuat aplikasi ini silahkan memilih tombol About lalu memilih tombol About."
+            android:id="@+id/tv7"
+            android:layout_below="@+id/tv6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="2dp" />
+
+    </LinearLayout>
+</ScrollView>

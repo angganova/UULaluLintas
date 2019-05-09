@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UU Lalu Lintas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_content">Daftar Pasal dan Sanksi</string>
+    <string name="title_activity_database">Database</string>
+    <string name="title_activity_sim">Simulasi Ujian SIM</string>
+    <string name="title_activity_rambu">Rambu - rambu Lalu Lintas</string>
+    <string name="title_activity_tentang">Tentang Aplikasi</string>
+    <string name="title_activity_hasil">Hasil Simulasi Ujian SIM</string>
+    <string name="title_activity_pembuat">Tentang Aplikasi</string>
+    <string name="title_activity_bantuan">Bantuan Aplikasi</string>
+    <string name="title_activity_r2">Kendaraan Roda 2</string>
+    <string name="title_activity_r4">Kendaraan Roda 4/Lebih</string>
+    <string name="title_activity_search">Pencarian</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_sim2">Kuis Simulasi Kendaraan Roda 2</string>
+    <string name="title_activity_splash_sim">splash_sim</string>
+    <string name="title_activity_content_sim">Menu Sim</string>
+    <string name="title_activity_simulasi">simulasi</string>
+
+</resources>
